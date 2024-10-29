@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Productos.css">
+</head>
+<body>
+    <div class="men">
+    <div class="menu">
+        <img src="Fotos/logo.png" alt="">
+        <a href="index.html">Inicio</a>
+        <a class="actual" href="Productos.html">Menú</a>
+        <a href="promociones.html">Promociones</a>
+        <a href="cuenta.html">Cuenta</a>
+        <form action="Login.html" method="get">
+        <button class="custom-button" type="submit">Iniciar sesión</button>  
+        </form> 
+    </div>
+    </div>
+
+
+    <div class="cuerpo">
+
+        <div class="columna1">
+
+            <div class="filtros">
+                <input type="text" placeholder="Buscar" class="buscar">
+                <button class="filtros-botton"><img class="filter" src="Imagenes/filter.png" alt="filtros"></button>
+             </div>
+
+            <div class="productos">
+
+                <div class="products" id="products">
+                </div>
+                
+
+            </div>
+        </div>
+    </div>
+
+    <script src="./product.js"></script>
+    <script src="./data.js"></script>
+    <script src="./index.js"></script>
+
+</body>
+</html>
