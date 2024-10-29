@@ -15,11 +15,12 @@ class Product {
                 <div class="product-item-info">
                     <label>${this.categories}</label>
                     <p>${this.name}</p>
-                    <h4> ${this.details.size}</h4>
+                    <h4>${this.details.size}</h4>
                     <br>
                     <h3>$ ${this.price}</h3>
+                    <button onclick="addToFavorites(${pos}); event.stopPropagation();">Agregar a Favoritos</button>
                 </div>
             </div>
-        `
+        `;
     }
 }
